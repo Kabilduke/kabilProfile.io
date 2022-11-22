@@ -1,0 +1,77 @@
+.Style-switch{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(rgb(157, 232, 157));
+    background: var(--bg--black-100);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translate(100%);
+}
+.Style-switch.open{
+    transform: translate(-25px);
+}
+.Style-switch .s-icon{
+     position: absolute;
+      height: 40px;
+      width: 40px;
+      text-align: center;
+      font-size: 20px;
+      background: var(--bg--black-100);
+      color:var(--text-black-900);
+      right: 100%;
+      border: 1px solid var(rgb(157,232,157));
+      margin-right: 25px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      border-radius: 50%;
+
+}
+.Style-switch .s-icon i{
+    line-height: 40px;
+}
+.Style-switch .Style-switch-toggle{
+    top: 0;
+}
+.Style-switch .Day-night{
+    top: 55px;
+}
+.Style-switch h4{
+    margin: 0 0 10px;
+    color: var(--text-black-700);
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: capitalize ;
+
+}
+.Style-switch .Colors{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.Style-switch .Colors span{
+    display: inline-block;
+    height: 30px ;
+    width: 30px;
+    border-radius: 50%;
+   
+}
+.Style-switch .Color{
+    background: green;
+}
+.Style-switch .Color2{
+    background: orange;
+}
+.Style-switch .Color3{
+    background: red;
+}
+.Style-switch .Color4{
+    background: yellow;
+}
+.Style-switch .Color5{
+    background: black;
+}
